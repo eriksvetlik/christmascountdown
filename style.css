@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Vollkorn&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1513297887119-d46091b24bfa");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1,
+h3 {
+  font-family: Mountains of Christmas, serif;
+}
+
+p {
+  font-family: Vollkorn, serif;
+  font-size: 36px;
+}
+
+.counterRow {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 20%;
+  padding-bottom: 180px;
+}
+
+.footer {
+  font-size: 42px;
+}
+
+.header {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.row {
+  display: none;
+}
+
+.wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 30px;
+  }
+
+  .counter {
+    padding: 0 2.5rem;
+  }
+
+  .counterRow {
+    padding-bottom: 120px;
+  }
+
+  .footer {
+    font-size: 24px;
+  }
+
+  .header {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 18px;
+  }
+
+  .counter {
+    padding: 0;
+  }
+
+  .counterRow {
+    padding-bottom: 120px;
+    margin: 0px 10px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Christmas Countdown</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".row").delay(1000).fadeIn();
+      });
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="wrapper">
+        <div class="header">
+          <h1>Christmas Countdown</h1>
+        </div>
+
+        <div class="row">
+          <div class="counterRow">
+            <div class="counter">
+              <p id="days">00</p>
+              <p>days</p>
+            </div>
+
+            <div class="counter">
+              <p id="hours">00</p>
+              <p>hours</p>
+            </div>
+
+            <div class="counter">
+              <p id="minutes">00</p>
+              <p>minutes</p>
+            </div>
+
+            <div class="counter">
+              <p id="seconds">00</p>
+              <p>seconds</p>
+            </div>
+          </div>
+        </div>
+
+        <img src="images/loader.gif" alt="loader" id="loader" />
+
+        <div class="footer">
+          <h3>Have yourself a merry little Christmas</h3>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
